@@ -5,7 +5,7 @@ pub struct Account {
     password_hash: PasswordHash,
     first_name: Option<FirstName>,
     last_name: Option<LastName>,
-    display_name: Option<DisplayName>
+    display_name: Option<DisplayName>,
     bio: Option<Bio>,
     profire_image_url: Option<ProfireImageUrl>,
     country_code: CountryCode,
