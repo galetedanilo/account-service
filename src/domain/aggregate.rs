@@ -1,3 +1,5 @@
+use super::id::Id;
+
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
 pub struct Account {
     id: Id,
